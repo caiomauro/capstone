@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A brief description of your webpage">
-    <title>Your Page Title</title>
+    <meta name="description" content="Professional ePortfolio showcasing my skills and projects in computer science.">
+    <title>Caio Mauro ePortfolio</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
     <style>
@@ -39,17 +39,31 @@
         a:hover {
             text-decoration: underline;
         }
+        video {
+            width: 100%;
+            height: auto;
+        }
+        .artifact {
+            margin-bottom: 20px;
+        }
+        .artifact h3 {
+            margin: 0;
+        }
+        .artifact p {
+            margin: 5px 0;
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Welcome to My Website</h1>
+            <h1>My ePortfolio</h1>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="#code-review">Code Review</a></li>
+                    <li><a href="#artifacts">Artifacts</a></li>
+                    <li><a href="#self-assessment">Self-Assessment</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -59,25 +73,55 @@
         <div class="container">
             <section id="home">
                 <h2>Home</h2>
-                <p>Welcome to the homepage!</p>
+                <p>Welcome to my professional ePortfolio. Here, you can explore my projects, view my code review, and read my self-assessment.</p>
             </section>
-            <section id="about">
-                <h2>About</h2>
-                <p>Projects</p>
+            <section id="code-review">
+                <h2>Code Review</h2>
+                <p>The actual video file for each artifact was too larget to be uploaded to github. As a replacement please view this outline that was used as a script for the videos.</p>
+                <a href="https://github.com/caiomauro/capstone/blob/main/Code%20Review%20Outline.md">Code Review Outline</a>
             </section>
-            <section id="services">
-                <h2>Services</h2>
-                <p>More stuff</p>
+            <section id="artifacts">
+                <h2>Artifacts</h2>
+                <div class="artifact">
+                    <h3>Artifact 1: Contact and Appointment Management System</h3>
+                    <p>This project involved creating terminal applications for managing contacts, tasks, and appointments, and ensuring they were correctly tested.</p>
+                    <a href="https://github.com/caiomauro/capstone/blob/main/zContact%20and%20Appointment%20Management%20System.zip" target="_blank">View CAMS</a>
+                    <a href="https://github.com/caiomauro/capstone/blob/main/Contact%20and%20Appointment%20Management%20System%20Narrative.docx" target="_blank">Narrative</a>
+                    <p><strong>Enhancement Summary:</strong> Integrate contacts, tasks, and appointments into a cohesive system with robust testing. Add features allowing contacts to schedule appointments with each other and track tasks within those appointments.</p>
+                    <p><strong>Skills Demonstrated:</strong> Integration of complex systems, testing, local database usage, and system design.</p>
+                </div>
+                <div class="artifact">
+                    <h3>Artifact 2: Machine Learning Model, Treasure Hunter</h3>
+                    <p>This model solves the treasure hunt game using advanced machine learning techniques.</p>
+                    <a href="https://github.com/caiomauro/capstone/blob/main/zTreasureHunter.zip" target="_blank">View Treasure Hunter</a>
+                    <a href="https://github.com/caiomauro/capstone/blob/main/TreasureHunter%20Narrative.docx" target="_blank">Narrative</a>
+                    <p><strong>Enhancement Summary:</strong> Improve performance and documentation of the model. Enhance the show function for better clarity and add a Python CLI for parameter adjustments.</p>
+                    <p><strong>Skills Demonstrated:</strong> Machine learning, performance optimization, documentation, user interface improvements.</p>
+                </div>
+                <div class="artifact">
+                    <h3>Artifact 3: PagePal with Admin Panel and User Sessions</h3>
+                    <p>Local database for a mobile app project, focusing on efficient data storage and retrieval.</p>
+                    <a href="https://github.com/caiomauro/capstone/blob/main/zPagePal%2C%20Admin%20Panel%20and%20User%20Sessions.zip" target="_blank">View PagePal</a>
+                    <a href="https://github.com/caiomauro/capstone/blob/main/PagePal%20Narrative.docx" target="_blank">Narrative</a>
+                    <p><strong>Enhancement Summary:</strong> Enhance data handling, add a permission system for admin accounts, and implement a database dump feature.</p>
+                    <p><strong>Skills Demonstrated:</strong> Database management, data efficiency, access control, industry best practices.</p>
+                </div>
+            </section>
+            <section id="self-assessment">
+                <h2>Professional Self-Assessment</h2>
+                <p>During my time in the Computer Science program, I have developed a range of skills and experiences that I believe will significantly contribute to my career in software and machine learning engineering. My self-assessment reflects my continuous learning and commitment to improving both my technical abilities and my understanding of complex technologies. I am confident that my ability to critically evaluate my own work and seek improvements demonstrates my readiness for professional challenges and opportunities.</p>
             </section>
             <section id="contact">
                 <h2>Contact</h2>
-                <p>My info</p>
+                <p>If you would like to get in touch, please reach out via email or social media.</p>
+                <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+                <!-- Add social media links if desired -->
             </section>
         </div>
     </main>
     <footer>
         <div class="container">
-            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <p>&copy; 2024 Caio Mauro. All rights reserved.</p>
         </div>
     </footer>
 </body>
